@@ -24,7 +24,7 @@ More under [analysis/protobuf](./analysis/protobuf)
 
 #### Bundled libs
 Since the native library includes many well know open source libraries the assembly can be more or less easily understood.  
-A set of frida scripts is provided [here](./frida) that will dump all the tflite nodes and input and output tensors when `Invoke` is called. This facilitates debugging by comparing the outputs from the library against running the models locally.
+A set of frida scripts is provided [here](./analysis/frida) that will dump all the tflite nodes and input and output tensors when `Invoke` is called. This facilitates debugging by comparing the outputs from the library against running the models locally.
 
 ### Models and transducers
 A set of tensorflow-lite models, configs and FST files that the app downloads when offline speech recognition is enabled (Fast-Typing in GBoard)
